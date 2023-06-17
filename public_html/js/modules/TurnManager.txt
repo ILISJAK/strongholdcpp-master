@@ -1,0 +1,108 @@
+import Player from "./Player.js";
+
+export default class TurnManager {
+    constructor(numPlayers) {
+        // Initialize the players
+        this.players = [];
+        for (let i = 0; i < numPlayers; i++) {
+            const playerIdentifier = String.fromCharCode(65 + i); // 'A', 'B', ...
+            this.players.push(new Player(playerIdentifier));
+        }
+
+        // Get the initial state from the session or server
+        if (sessionStorage.getItem("turnNumber") && sessionStorage.getItem("currentPlayerIndex")) {
+            this.turnNumber = parseInt(sessionStorage.getItem("turnNumber"));
+            this.currentPlayerIndex = parseInt(sessionStorage.getItem("currentPlayerIndex"));
+            this.updateTurnDisplay();
+        } else {
+            this.getInitialStateFromServer((turnNumberFromServer, currentPlayerIndexFromServer) => {
+                this.turnNumber = turnNumberFromServer;
+                this.currentPlayerIndex = currentPlayerIndexFromServer;
+                this.updateTurnDisplay();
+            });
+        }
+    }
+
+    updateTurnDisplay() {
+        let currentPlayer = this.players[this.currentPlayerIndex];
+        if (currentPlayer) {
+            document.getElementById("current-turn").innerHTML = `Turn: ${this.turnNumber} (Player ${currentPlayer.playerIdentifier})`;
+        } else {
+            console.error('Current player is not defined');
+        }
+    }
+
+    getCurrentPlayer() {
+        return this.players[this.currentPlayerIndex].playerIdentifier;
+    }
+
+    nextTurn() {
+        this.currentPlayerIndex = (this.currentPlayerIndex + 1) % this.players.length;
+        this.turnNumber++;
+
+        this.storeGameStateOnServer(this.turnNumber, this.currentPlayerIndex, this.players);
+        this.updateTurnDisplay();
+    }
+
+    getTurnNumber() {
+        return this.turnNumber;
+    }
+
+    getTurnFromServer(callback) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "../game/session.php", true);
+        xhr.onload = function () {
+            if (this.status >= 200 && this.status < 400) {
+                // Success!
+                var data = JSON.parse(this.response);
+                callback(data.turnNumber);
+            } else {
+                // We reached our target server, but it returned an error
+                console.error("Server returned an error");
+            }
+        };
+        xhr.onerror = function () {
+            // There was a connection error of some sort
+            console.error("Connection error");
+        };
+        xhr.send();
+    }
+
+    storeGameStateOnServer(turnNumber, currentPlayerIndex, players) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "../game/session.php", true);
+        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        xhr.send(JSON.stringify({
+            turnNumber: turnNumber,
+            currentPlayerIndex: currentPlayerIndex,
+            players: players,
+        }));
+
+        // Store the turn number and player index in session storage
+        sessionStorage.setItem("turnNumber", turnNumber.toString());
+        sessionStorage.setItem("currentPlayerIndex", currentPlayerIndex.toString());
+    }
+
+    getInitialStateFromServer(callback) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "../game/session.php", true);
+        xhr.onreadystatechange = () => {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                let response = JSON.parse(xhr.responseText);
+                callback(response.turnNumber, response.currentPlayerIndex);
+            }
+        };
+        xhr.send();
+    }
+    reset() {
+        // Clear session storage
+        sessionStorage.removeItem("turnNumber");
+        sessionStorage.removeItem("currentPlayerIndex");
+
+        this.turnNumber = 1;
+        this.currentPlayerIndex = 0;
+
+        // Update the turn display
+        this.updateTurnDisplay();
+    }
+}
