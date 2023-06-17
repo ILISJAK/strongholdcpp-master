@@ -319,7 +319,7 @@ export default class Game {
     }
 
     async getTownData(playerIdentifier) {
-        const properties = ["population", "activePopulation", "gold", "rations", "wood", "stone", "housing"];
+        const properties = ["team", "population", "activePopulation", "gold", "rations", "wood", "stone", "housing"];
         const townData = { playerIdentifier };
 
         const url = '../../api/get_property.php';
@@ -391,9 +391,6 @@ export default class Game {
             console.log(`Current player set to: ${this.currentPlayer}`);
         });
     }
-
-
-
 
     // Add a new method to generate towns
     generateTowns(numPlayers) {

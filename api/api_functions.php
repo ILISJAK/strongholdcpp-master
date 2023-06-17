@@ -137,26 +137,38 @@ function load_game($user_id, $game_id)
         $savedGame = $stmt->fetch(PDO::FETCH_ASSOC);
 
         if ($savedGame) {
-            // Unserialize towns data and possibly players data
+            // Unserialize towns data
             $townsData = json_decode($savedGame['towns'], true);
+            $serializedTowns = [];
 
-            $numPlayers = $savedGame['players'];
-            $turnNumber = $savedGame['turnNumber'];
-            $currentPlayerIndex = $savedGame['currentPlayerIndex'];
+            // Convert string numbers to actual numbers and set team
+            foreach ($townsData as $team => &$town) {
+                $townEntry = [
+                    "team" => $team,
+                    "activePopulation" => (int) $town['activePopulation']['activePopulation'],
+                    "population" => (int) $town['population']['population'],
+                    "gold" => (float) $town['gold']['gold'],
+                    "rations" => (int) $town['rations']['rations'],
+                    "wood" => (int) $town['wood']['wood'],
+                    "stone" => (int) $town['stone']['stone'],
+                    "housing" => (int) $town['housing']['housing']
+                ];
+                array_push($serializedTowns, $townEntry);
+            }
 
             // Prepare the data for the API
-            $data = array(
-                "numPlayers" => $numPlayers,
-                "townsData" => $townsData,
-                "turnNumber" => $turnNumber,
-                "currentPlayerIndex" => $currentPlayerIndex
-            );
+            $dataToSend = [
+                "serializedTowns" => json_encode($serializedTowns)
+            ];
+
+            // Log the data being sent to the server
+            error_log("Sending data to API:\n" . json_encode($dataToSend));
 
             // Send the data to the API
             $curl = curl_init($load_game_url);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($curl, CURLOPT_POST, true);
-            curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($data));
+            curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($dataToSend));
             curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
 
             $response = curl_exec($curl);
@@ -164,14 +176,18 @@ function load_game($user_id, $game_id)
             curl_close($curl);
 
         } else {
-            $response = json_encode(["error" => "No saved game data found."]);
+            $response = json_encode(["error" => "No saved game found"]);
         }
-    } catch (PDOException $e) {
-        $response = json_encode(["error" => $e->getMessage()]);
-    }
 
-    return $response;
+        return $response;
+
+    } catch (Exception $e) {
+        return json_encode(["error" => $e->getMessage()]);
+    }
 }
+
+
+
 
 // // Usage example:
 // session_start();
