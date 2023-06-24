@@ -1,8 +1,4 @@
-Sure, here is a README.md for your `strongholdcpp-master` repository:
-
----
-
-# StrongholdCPP Master Game
+# StrongholdCPP
 
 StrongholdCPP is a robust turn-based strategy game powered by JavaScript and PHP for frontend and C++ for the backend. This project leverages the capabilities of the `StrongholdCPP API` to manage game instances, handle move actions, fetch game properties, save and load a game.
 
