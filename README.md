@@ -55,3 +55,7 @@ Ensure you have installed and set up the StrongholdCPP API as detailed in its [r
 ## Usage
 
 StrongholdCPP is a web-based game, and you should access it via a web browser. To play the game, simply navigate to the PHP file in your web server.
+
+## Acknowledgements
+
+This project uses the `noise.js` library, Copyright (c) 2013, Joseph Gentle.
