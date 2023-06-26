@@ -6,23 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
-    <link rel="stylesheet" type="text/css" href="css/userforms.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- Include W3 CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
+<style>
+    body,
+    h1,
+    h5 {
+        font-family: "Raleway", sans-serif
+    }
+
+    body,
+    html {
+        height: 100%
+    }
+
+    #video-background {
+        /* Make the video fully cover the screen */
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .dim-overlay {
+        /* Semi-transparent background color */
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Position the overlay to cover the entire screen */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .form-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        z-index: 1;
+        /* Make sure the form container appears above the video and overlay */
+    }
+
+    .form-content {
+        padding: 20px;
+    }
+</style>
+
 <body>
+    <video autoplay loop muted id="video-background">
+        <source src="vid/medieval-european-village-moewalls.com.mp4" type="video/mp4">
+    </video>
+    <div class="dim-overlay"></div>
     <div class="form-container">
-        <form id="loginForm" method="post">
-            <h1>LOGIN</h1>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required><br>
+        <div class="w3-card-4 w3-white form-content">
+            <form id="loginForm" class="w3-container" method="post">
+                <h1 class="w3-center">LOGIN</h1>
+                <label for="username">Username:</label>
+                <input class="w3-input" type="text" id="username" name="username" required><br>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required><br>
+                <label for="password">Password:</label>
+                <input class="w3-input" type="password" id="password" name="password" required><br>
 
-            <input type="submit" value="Login">
-        </form>
+                <button class="w3-button w3-block w3-black" type="submit">Login</button>
+            </form>
+        </div>
     </div>
+
     <script>
         document.getElementById('loginForm').addEventListener('submit', function (e) {
             e.preventDefault();
@@ -52,6 +107,11 @@
                 }
             };
             xhr.send("username=" + encodeURIComponent(username) + "&password=" + encodeURIComponent(password));
+        });
+        document.addEventListener('keyup', (e) => {
+            if (e.key === 'Escape') {
+                window.location.href = '../index.php';
+            }
         });
     </script>
 </body>

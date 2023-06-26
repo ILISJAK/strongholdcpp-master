@@ -9,7 +9,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($num_players !== null) {
         $_SESSION['numPlayers'] = $_POST['numPlayers'] ?? null;
         start_game($num_players);
-
     }
 }
 ?>

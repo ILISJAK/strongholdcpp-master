@@ -1,0 +1,21 @@
+body {
+    background-color: #f5f7fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.stats {
+    margin-top: 20px;
+}

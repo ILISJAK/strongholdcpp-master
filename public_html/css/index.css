@@ -1,0 +1,52 @@
+/* Stylesheet for the Index Page */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Changed to a more modern font */
+    background-color: #f5f7fa;
+    /* Light grey background for less contrast */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 0 15px;
+    /* Added some horizontal padding */
+}
+
+#auth-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1772FF;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    /* Added a subtle shadow */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button:active {
+    background-color: #004080;
+}

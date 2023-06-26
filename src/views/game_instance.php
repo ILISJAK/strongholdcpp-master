@@ -99,21 +99,29 @@ echo "<script>console.log('Session Data: ', " . json_encode($_SESSION) . ");</sc
             <button type="submit">Build Housing</button>
         </form>
     </div>
-    <!-- <div id="market-dialog" class="dialog-box">
+    <div id="market-dialog" class="dialog-box">
         <h3>Market</h3>
-        <form id="market-form">
-            <label for="">Number of Villagers:</label>
-            <input type="number" id="" min="1" value="1">
-            <button type="">Train Villagers</button>
+        <form onsubmit="return false" id="market-form">
+            <label for="resource-type">Resource:</label>
+            <select id="resource-type">
+                <option value="rations">Rations</option>
+                <option value="wood">Wood</option>
+                <option value="stone">Stone</option>
+            </select>
+            <label for="resource-amount">Amount:</label>
+            <input type="number" id="resource-amount" min="1" value="1">
+            <button type="submit" id="buy-button">Buy</button>
+            <button type="submit" id="sell-button">Sell</button>
         </form>
-    </div> -->
+    </div>
+
     <div id="town-info-dialog" class="modal">
         <div class="modal-content">
             <!-- <span class="close-btn">&times;</span> -->
             <!-- <p id="town-info"></p> -->
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../../public_html/js/modules/iziToast.min.js"></script>
     <script src="../../vendor/noisejs/perlin.js"></script>
     <script type="module" src="../../public_html/js/modules/Camera.js"></script>

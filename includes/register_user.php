@@ -18,6 +18,11 @@ if ($username && $password && $email) {
         $stmt->bindParam(':email', $email);
         $stmt->execute();
 
+        // automatic login after register
+        session_start();
+        $_SESSION['username'] = $username;
+        $_SESSION['user_id'] = $db->lastInsertId(); // Retrieve the ID of the newly inserted user
+
         echo "User registered successfully";
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();

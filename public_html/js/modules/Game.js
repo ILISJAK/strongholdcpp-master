@@ -23,6 +23,8 @@ export default class Game {
         this.structureAmountInput = null;
         this.structureTypeInput = null;
         this.housingAmountInput = null;
+        this.resourceTypeInput = null;
+        this.resourceAmountInput = null;
         this.numPlayers = null;
         this.currentPlayer = null;
         this.fetchCurrentState();
@@ -155,7 +157,7 @@ export default class Game {
         this.trainTroopDialog = document.getElementById("train-troop-dialog");
         this.buildStructureDialog = document.getElementById("build-structure-dialog");
         this.buildHousingDialog = document.getElementById("build-housing-dialog");
-        this.marketDialog = document.getElementById("train-villagers-dialog");
+        this.marketDialog = document.getElementById("market-dialog");
         this.actionForm = document.getElementById("action-form");
 
         this.dialogOverlay.addEventListener("click", () => {
@@ -287,6 +289,23 @@ export default class Game {
             });
         }
 
+        let marketFormContainer = this.marketDialog.querySelector("#market-form-container");
+
+        if (marketFormContainer) {
+            this.marketForm = marketFormContainer.querySelector("form");
+            this.resourceTypeInput = this.marketForm.querySelector("#resource-type");
+            this.resourceAmountInput = this.marketForm.querySelector("#resource-amount");
+            this.buyButton = this.marketForm.querySelector("#buy-button");
+            this.sellButton = this.marketForm.querySelector("#sell-button");
+
+            if (this.marketForm) {
+                this.marketForm.addEventListener("submit", (event) => {
+                    event.preventDefault();
+                    this.handleMarketForm();
+                });
+            }
+        }
+
         let townContainers = document.getElementsByClassName("town-container");
         for (let i = 0; i < townContainers.length; i++) {
             townContainers[i].addEventListener("click", (event) => {
@@ -314,7 +333,7 @@ export default class Game {
         this.openDialog(this.buildHousingDialog);
     }
     openMarketForm() {
-        console.log('Opening Train Villagers Form');
+        console.log('Opening Market Form');
         this.openDialog(this.marketDialog);
     }
 
@@ -659,6 +678,66 @@ export default class Game {
         this.closeDialogs();
         return 0;
     }
+
+    handleMarketForm(event) {
+        event.preventDefault();
+
+        let resourceType = this.resourceTypeInput.value;
+        let resourceAmount = this.resourceAmountInput.value;
+
+        if (this.buyButton && this.buyButton === event.target) {
+            this.buyFromMarket(resourceType, resourceAmount);
+        } else if (this.sellButton && this.sellButton === event.target) {
+            this.sellToMarket(resourceType, resourceAmount);
+        }
+
+        this.closeDialogs();
+    }
+
+    buyFromMarket(resourceType, amount) {
+        let data = {
+            resource: resourceType,
+            amount: amount
+        };
+
+        iziToast.show({
+            title: 'Success',
+            message: `Bought ${data.amount} ${data.resource}(s) from the market.`,
+            position: 'topLeft',
+            timeout: 3000
+        });
+
+        this.makeMove('buy-from-market', data)
+            .then(() => {
+                this.fetchCurrentState();
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+    }
+
+    sellToMarket(resourceType, amount) {
+        let data = {
+            resource: resourceType,
+            amount: amount
+        };
+
+        iziToast.show({
+            title: 'Success',
+            message: `Sold ${data.amount} ${data.resource}(s) to the market.`,
+            position: 'topLeft',
+            timeout: 3000
+        });
+
+        this.makeMove('sell-to-market', data)
+            .then(() => {
+                this.fetchCurrentState();
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+    }
+
 
     openTownDialog() {
         console.log("Opening town dialog.");

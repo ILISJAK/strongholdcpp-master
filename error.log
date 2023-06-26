@@ -9850,3 +9850,3245 @@ Response:
 [17-Jun-2023 22:30:20 Europe/Berlin] Town data saved in session for player: B
 [17-Jun-2023 22:30:20 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"330\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
 [17-Jun-2023 22:30:20 Europe/Berlin] Town data saved in session for player: A
+[24-Jun-2023 13:44:11 Europe/Berlin] PHP Warning:  include(../includes/player.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[24-Jun-2023 13:44:11 Europe/Berlin] PHP Warning:  include(): Failed opening '../includes/player.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[24-Jun-2023 13:44:16 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2246 ms: Connection refused<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2246 ms: Connection refused<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2245 ms: Connection refused<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2246 ms: Connection refused<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2246 ms: Connection refused<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2246 ms: Connection refused<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] HTTP Code: 0<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] HTTP Code: 0<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] HTTP Code: 0<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] HTTP Code: 0<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] HTTP Code: 0<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] HTTP Code: 0<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.246783
+    [namelookup_time] => 2.6E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 26
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2246783
+    [effective_method] => POST
+)
+<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.246444
+    [namelookup_time] => 1.5E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 15
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2246444
+    [effective_method] => POST
+)
+<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.245946
+    [namelookup_time] => 1.5E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 15
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2245946
+    [effective_method] => POST
+)
+<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.246131
+    [namelookup_time] => 1.4E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 14
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2246131
+    [effective_method] => POST
+)
+<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.246164
+    [namelookup_time] => 1.4E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 14
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2246164
+    [effective_method] => POST
+)
+<br>
+[24-Jun-2023 13:44:16 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.246039
+    [namelookup_time] => 1.4E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 14
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2246039
+    [effective_method] => POST
+)
+<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2246 ms: Connection refused<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2247 ms: Connection refused<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2247 ms: Connection refused<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2247 ms: Connection refused<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2247 ms: Connection refused<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2245 ms: Connection refused<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2242 ms: Connection refused<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] HTTP Code: 0<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] HTTP Code: 0<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] HTTP Code: 0<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] HTTP Code: 0<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] HTTP Code: 0<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] HTTP Code: 0<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] HTTP Code: 0<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.246913
+    [namelookup_time] => 1.4E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 14
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2246913
+    [effective_method] => POST
+)
+<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.247294
+    [namelookup_time] => 1.8E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 18
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2247294
+    [effective_method] => POST
+)
+<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.247112
+    [namelookup_time] => 1.5E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 15
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2247112
+    [effective_method] => POST
+)
+<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.247134
+    [namelookup_time] => 1.5E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 15
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2247134
+    [effective_method] => POST
+)
+<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.247159
+    [namelookup_time] => 1.7E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 17
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2247159
+    [effective_method] => POST
+)
+<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.246014
+    [namelookup_time] => 1.8E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 18
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2246014
+    [effective_method] => POST
+)
+<br>
+[24-Jun-2023 13:44:18 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.242247
+    [namelookup_time] => 2.0E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 20
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2242247
+    [effective_method] => POST
+)
+<br>
+[24-Jun-2023 13:44:36 Europe/Berlin] PHP Warning:  include(../includes/player.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[24-Jun-2023 13:44:36 Europe/Berlin] PHP Warning:  include(): Failed opening '../includes/player.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+HTTP Status: 200
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[24-Jun-2023 13:44:37 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[24-Jun-2023 13:44:38 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[24-Jun-2023 13:44:38 Europe/Berlin] Town data saved in session for player: B
+[24-Jun-2023 13:44:38 Europe/Berlin] Received town data: {"playerIdentifier":"A","gold":"{\"gold\":\"1000.000000\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","rations":"{\"rations\":\"350\"}"}
+[24-Jun-2023 13:44:38 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 13:56:19 Europe/Berlin] PHP Warning:  include(../includes/player.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 13:56:19 Europe/Berlin] PHP Warning:  include(): Failed opening '../includes/player.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 13:56:24 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2222 ms: Connection refused<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2218 ms: Connection refused<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2220 ms: Connection refused<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2218 ms: Connection refused<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2221 ms: Connection refused<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] cURL Error: Failed to connect to localhost port 8080 after 2221 ms: Connection refused<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] HTTP Code: 0<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] HTTP Code: 0<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] HTTP Code: 0<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] HTTP Code: 0<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] HTTP Code: 0<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] HTTP Code: 0<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.22211
+    [namelookup_time] => 2.0E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 20
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2222110
+    [effective_method] => POST
+)
+<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.218547
+    [namelookup_time] => 1.6E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 16
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2218547
+    [effective_method] => POST
+)
+<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.220631
+    [namelookup_time] => 2.3E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 23
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2220631
+    [effective_method] => POST
+)
+<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.218036
+    [namelookup_time] => 1.4E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 14
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2218036
+    [effective_method] => POST
+)
+<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.22141
+    [namelookup_time] => 1.9E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 19
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2221410
+    [effective_method] => POST
+)
+<br>
+[26-Jun-2023 13:56:24 Europe/Berlin] cURL Info: Array
+(
+    [url] => http://localhost:8080/get-property
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.221654
+    [namelookup_time] => 1.5E-5
+    [connect_time] => 0
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 0
+    [local_ip] => 
+    [local_port] => 0
+    [http_version] => 0
+    [protocol] => 0
+    [ssl_verifyresult] => 0
+    [scheme] => 
+    [appconnect_time_us] => 0
+    [connect_time_us] => 0
+    [namelookup_time_us] => 15
+    [pretransfer_time_us] => 0
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 0
+    [total_time_us] => 2221654
+    [effective_method] => POST
+)
+<br>
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+HTTP Status: 500
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+HTTP Status: 500
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+HTTP Status: 500
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+HTTP Status: 500
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+Response:
+{"error":"Error retrieving property"}
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+Response:
+{"error":"Error retrieving property"}
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+Response:
+{"error":"Error retrieving property"}
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+Response:
+{"error":"Error retrieving property"}
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+HTTP Status: 500
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+HTTP Status: 500
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+HTTP Status: 500
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+HTTP Status: 500
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+Response:
+{"error":"Error retrieving property"}
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+Response:
+{"error":"Error retrieving property"}
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+Response:
+{"error":"Error retrieving property"}
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+Response:
+{"error":"Error retrieving property"}
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+HTTP Status: 500
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+HTTP Status: 500
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+Response:
+{"error":"Error retrieving property"}
+
+[26-Jun-2023 13:56:26 Europe/Berlin] 
+Response:
+{"error":"Error retrieving property"}
+
+[26-Jun-2023 13:56:28 Europe/Berlin] Received town data: {"playerIdentifier":"B","activePopulation":"{\"error\":\"Error retrieving property\"}","population":"{\"error\":\"Error retrieving property\"}","gold":"{\"error\":\"Error retrieving property\"}","stone":"{\"error\":\"Error retrieving property\"}","housing":"{\"error\":\"Error retrieving property\"}","rations":"{\"error\":\"Error retrieving property\"}","wood":"{\"error\":\"Error retrieving property\"}","team":"{\"error\":\"Error retrieving property\"}"}
+[26-Jun-2023 13:56:28 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 13:56:28 Europe/Berlin] Received town data: {"playerIdentifier":"A","housing":"{\"error\":\"Error retrieving property\"}","stone":"{\"error\":\"Error retrieving property\"}"}
+[26-Jun-2023 13:56:28 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 13:56:35 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_m94n94stnknv3jok74e6rbbifm, O_RDWR) failed: Permission denied (13) in C:\xampp\htdocs\dev\strongholdcpp-master\src\game\reset_game.php on line 9
+[26-Jun-2023 13:56:35 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\xampp\htdocs\dev\strongholdcpp-master\src\game\reset_game.php on line 9
+[26-Jun-2023 13:56:35 Europe/Berlin] PHP Warning:  include(../includes/player.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 13:56:35 Europe/Berlin] PHP Warning:  include(): Failed opening '../includes/player.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 13:56:45 Europe/Berlin] PHP Warning:  include(../includes/player.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 13:56:45 Europe/Berlin] PHP Warning:  include(): Failed opening '../includes/player.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:46 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 13:56:47 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","stone":"{\"stone\":\"200\"}","wood":"{\"wood\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 13:56:47 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 13:56:47 Europe/Berlin] Received town data: {"playerIdentifier":"A","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}"}
+[26-Jun-2023 13:56:47 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 13:56:56 Europe/Berlin] make_move response data:{"currentPlayer":"B","currentTurn":1,"message":"Move made"}
+[26-Jun-2023 13:56:56 Europe/Berlin] Session currentTurnNumber set to: 1
+[26-Jun-2023 13:56:56 Europe/Berlin] Session currentPlayerIdentifier set to: B
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+Response:
+{"population":"1"}
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+Response:
+{"rations":"340"}
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 13:56:56 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 13:56:56 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"1\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","wood":"{\"wood\":\"200\"}","rations":"{\"rations\":\"340\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 13:56:56 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"population":"1"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"rations":"340"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 13:57:52 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 13:57:53 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"1\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"340\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 13:57:53 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 13:57:53 Europe/Berlin] Received town data: {"playerIdentifier":"B","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"B\"}"}
+[26-Jun-2023 13:57:53 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 13:58:02 Europe/Berlin] Delete game initiated for Game ID: 16, User ID: 4
+[26-Jun-2023 13:58:02 Europe/Berlin] Error deleting game for User ID: 4. Error: SQLSTATE[42000]: Syntax error or access violation: 1318 Incorrect number of arguments for PROCEDURE strongholdcpp.DeleteGame; expected 2, got 1
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"population":"1"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"rations":"340"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:25:01 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:25:02 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","activePopulation":"{\"activePopulation\":\"0\"}","population":"{\"population\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 14:25:02 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 14:25:02 Europe/Berlin] Received town data: {"playerIdentifier":"A","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"1\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"340\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}"}
+[26-Jun-2023 14:25:02 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 14:26:33 Europe/Berlin] Delete game initiated for Game ID: 4, User ID: 4
+[26-Jun-2023 14:26:33 Europe/Berlin] Game ID: 4 deleted successfully for User ID: 4
+[26-Jun-2023 14:27:05 Europe/Berlin] Delete game initiated for Game ID: 2, User ID: 4
+[26-Jun-2023 14:27:05 Europe/Berlin] Game ID: 2 deleted successfully for User ID: 4
+[26-Jun-2023 14:32:28 Europe/Berlin] PHP Warning:  include(../includes/player.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 14:32:28 Europe/Berlin] PHP Warning:  include(): Failed opening '../includes/player.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:33:15 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:33:16 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","population":"{\"population\":\"0\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 14:33:16 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 14:33:16 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 14:33:16 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:35:48 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:35:49 Europe/Berlin] Received town data: {"playerIdentifier":"B","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","team":"{\"team\":\"B\"}","wood":"{\"wood\":\"200\"}","housing":"{\"housing\":\"10\"}","stone":"{\"stone\":\"200\"}"}
+[26-Jun-2023 14:35:49 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 14:35:49 Europe/Berlin] Received town data: {"playerIdentifier":"A","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}"}
+[26-Jun-2023 14:35:49 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:39:44 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:39:45 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","activePopulation":"{\"activePopulation\":\"0\"}","population":"{\"population\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 14:39:45 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 14:39:45 Europe/Berlin] Received town data: {"playerIdentifier":"A","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}"}
+[26-Jun-2023 14:39:45 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:41:26 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:41:28 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","activePopulation":"{\"activePopulation\":\"0\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 14:41:28 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 14:41:28 Europe/Berlin] Received town data: {"playerIdentifier":"A","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}"}
+[26-Jun-2023 14:41:28 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 14:41:32 Europe/Berlin] Delete game initiated for Game ID: 6, User ID: 4
+[26-Jun-2023 14:41:32 Europe/Berlin] Game ID: 6 deleted successfully for User ID: 4
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:43:03 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:43:05 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 14:43:05 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 14:43:05 Europe/Berlin] Received town data: {"playerIdentifier":"A","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}"}
+[26-Jun-2023 14:43:05 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 14:43:11 Europe/Berlin] Delete game initiated for Game ID: 10, User ID: 4
+[26-Jun-2023 14:43:11 Europe/Berlin] Game ID: 10 deleted successfully for User ID: 4
+[26-Jun-2023 14:43:20 Europe/Berlin] Delete game initiated for Game ID: 9, User ID: 4
+[26-Jun-2023 14:43:20 Europe/Berlin] Game ID: 9 deleted successfully for User ID: 4
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:44:45 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:44:47 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","activePopulation":"{\"activePopulation\":\"0\"}","rations":"{\"rations\":\"350\"}","stone":"{\"stone\":\"200\"}","wood":"{\"wood\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 14:44:47 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 14:44:47 Europe/Berlin] Received town data: {"playerIdentifier":"A","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}"}
+[26-Jun-2023 14:44:47 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:45:35 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:45:36 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","gold":"{\"gold\":\"1000.000000\"}"}
+[26-Jun-2023 14:45:36 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 14:45:36 Europe/Berlin] Received town data: {"playerIdentifier":"A","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}"}
+[26-Jun-2023 14:45:36 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 14:45:51 Europe/Berlin] Delete game initiated for Game ID: 8, User ID: 4
+[26-Jun-2023 14:45:51 Europe/Berlin] Game ID: 8 deleted successfully for User ID: 4
+[26-Jun-2023 14:57:39 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_m94n94stnknv3jok74e6rbbifm, O_RDWR) failed: Permission denied (13) in C:\xampp\htdocs\dev\strongholdcpp-master\src\game\reset_game.php on line 9
+[26-Jun-2023 14:57:39 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp\sess_m94n94stnknv3jok74e6rbbifm, O_RDWR) failed: Permission denied (13) in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 2
+[26-Jun-2023 14:57:39 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\xampp\htdocs\dev\strongholdcpp-master\src\game\reset_game.php on line 9
+[26-Jun-2023 14:57:39 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 2
+[26-Jun-2023 14:57:39 Europe/Berlin] PHP Warning:  include(../includes/player.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 14:57:39 Europe/Berlin] PHP Warning:  include(): Failed opening '../includes/player.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 14:57:46 Europe/Berlin] PHP Warning:  include(../includes/player.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 14:57:46 Europe/Berlin] PHP Warning:  include(): Failed opening '../includes/player.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:46 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:57:47 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 14:57:48 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","activePopulation":"{\"activePopulation\":\"0\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 14:57:48 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 14:57:48 Europe/Berlin] Received town data: {"playerIdentifier":"B","population":"{\"population\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","activePopulation":"{\"activePopulation\":\"0\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"B\"}"}
+[26-Jun-2023 14:57:48 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:58:16 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:58:18 Europe/Berlin] Received town data: {"playerIdentifier":"B","activePopulation":"{\"activePopulation\":\"0\"}","population":"{\"population\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","team":"{\"team\":\"B\"}","rations":"{\"rations\":\"350\"}","stone":"{\"stone\":\"200\"}","wood":"{\"wood\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 14:58:18 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 14:58:18 Europe/Berlin] Received town data: {"playerIdentifier":"A","housing":"{\"housing\":\"10\"}","stone":"{\"stone\":\"200\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}"}
+[26-Jun-2023 14:58:18 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 14:58:31 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 14:58:32 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","activePopulation":"{\"activePopulation\":\"0\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 14:58:32 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 14:58:32 Europe/Berlin] Received town data: {"playerIdentifier":"A","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}"}
+[26-Jun-2023 14:58:32 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:42 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 15:00:44 Europe/Berlin] Received town data: {"playerIdentifier":"B","gold":"{\"gold\":\"1000.000000\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","housing":"{\"housing\":\"10\"}","stone":"{\"stone\":\"200\"}","team":"{\"team\":\"B\"}"}
+[26-Jun-2023 15:00:44 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 15:00:44 Europe/Berlin] Received town data: {"playerIdentifier":"A","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}"}
+[26-Jun-2023 15:00:44 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:00:59 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 15:01:00 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","activePopulation":"{\"activePopulation\":\"0\"}","rations":"{\"rations\":\"350\"}","stone":"{\"stone\":\"200\"}","wood":"{\"wood\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 15:01:00 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 15:01:01 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 15:01:01 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 15:22:00 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 15:22:02 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","gold":"{\"gold\":\"1000.000000\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","rations":"{\"rations\":\"350\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","wood":"{\"wood\":\"200\"}"}
+[26-Jun-2023 15:22:02 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 15:22:02 Europe/Berlin] Received town data: {"playerIdentifier":"A","housing":"{\"housing\":\"10\"}","stone":"{\"stone\":\"200\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}"}
+[26-Jun-2023 15:22:02 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 15:22:29 Europe/Berlin] make_move response data:{"currentPlayer":"B","currentTurn":1,"message":"Move made"}
+[26-Jun-2023 15:22:29 Europe/Berlin] Session currentTurnNumber set to: 1
+[26-Jun-2023 15:22:29 Europe/Berlin] Session currentPlayerIdentifier set to: B
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+Response:
+{"population":"5"}
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+Response:
+{"rations":"300"}
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 15:22:29 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 15:22:29 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","activePopulation":"{\"activePopulation\":\"0\"}","population":"{\"population\":\"5\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"300\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 15:22:29 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 15:46:33 Europe/Berlin] PHP Warning:  include(includes/common.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\leaderboard.php on line 3
+[26-Jun-2023 15:46:33 Europe/Berlin] PHP Warning:  include(): Failed opening 'includes/common.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\leaderboard.php on line 3
+[26-Jun-2023 15:46:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function fetchLeaderboardData() in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\leaderboard.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\leaderboard.php on line 26
+[26-Jun-2023 15:48:15 Europe/Berlin] PHP Warning:  include(includes/common.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\leaderboard.php on line 3
+[26-Jun-2023 15:48:15 Europe/Berlin] PHP Warning:  include(): Failed opening 'includes/common.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\leaderboard.php on line 3
+[26-Jun-2023 15:48:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function fetchLeaderboardData() in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\leaderboard.php:29
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\leaderboard.php on line 29
+[26-Jun-2023 15:54:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function fetchLeaderboardData() in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\leaderboard.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\leaderboard.php on line 24
+[26-Jun-2023 20:14:32 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\user_profile.php on line 12
+[26-Jun-2023 20:14:32 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\user_profile.php on line 14
+[26-Jun-2023 20:14:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\user_profile.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\dev\strongholdcpp-master\src\views\user_profile.php on line 14
+[26-Jun-2023 23:19:31 Europe/Berlin] No data found in highscores table.
+[26-Jun-2023 23:19:45 Europe/Berlin] PHP Warning:  include(../includes/player.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 23:19:45 Europe/Berlin] PHP Warning:  include(): Failed opening '../includes/player.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+HTTP Status: 200
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[26-Jun-2023 23:19:46 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[26-Jun-2023 23:19:48 Europe/Berlin] Received town data: {"playerIdentifier":"A","rations":"{\"rations\":\"350\"}","gold":"{\"gold\":\"1000.000000\"}","team":"{\"team\":\"A\"}","activePopulation":"{\"activePopulation\":\"0\"}","population":"{\"population\":\"0\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 23:19:48 Europe/Berlin] Town data saved in session for player: A
+[26-Jun-2023 23:19:48 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","population":"{\"population\":\"0\"}","rations":"{\"rations\":\"350\"}","stone":"{\"stone\":\"200\"}","wood":"{\"wood\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[26-Jun-2023 23:19:48 Europe/Berlin] Town data saved in session for player: B
+[26-Jun-2023 23:19:53 Europe/Berlin] Save game initiated. Turn number: 1, Current Player Index: 0, User ID: 1
+[26-Jun-2023 23:19:53 Europe/Berlin] Session data: {"currentTurnNumber":1,"currentPlayerIndex":0,"username":"vrag","user_id":"1","towns":{"A":{"playerIdentifier":null,"rations":{"rations":"350"},"gold":{"gold":"1000.000000"},"team":{"team":"A"},"activePopulation":{"activePopulation":"0"},"population":{"population":"0"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}},"B":{"playerIdentifier":null,"team":{"team":"B"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"population":{"population":"0"},"rations":{"rations":"350"},"stone":{"stone":"200"},"wood":{"wood":"200"},"housing":{"housing":"10"}}}}
+[26-Jun-2023 23:19:53 Europe/Berlin] Game saved successfully for User ID: 1
+[26-Jun-2023 23:19:53 Europe/Berlin] {"currentTurnNumber":1,"currentPlayerIndex":0,"username":"vrag","user_id":"1","towns":{"A":{"playerIdentifier":null,"rations":{"rations":"350"},"gold":{"gold":"1000.000000"},"team":{"team":"A"},"activePopulation":{"activePopulation":"0"},"population":{"population":"0"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}},"B":{"playerIdentifier":null,"team":{"team":"B"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"population":{"population":"0"},"rations":{"rations":"350"},"stone":{"stone":"200"},"wood":{"wood":"200"},"housing":{"housing":"10"}}}}

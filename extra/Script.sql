@@ -8,8 +8,10 @@ CREATE TABLE users (
   `username` VARCHAR(30) NOT NULL,
   `password` VARCHAR(70) NOT NULL,
   `email` VARCHAR(30) NOT NULL,
+  `profile_picture` VARCHAR(255),
   PRIMARY KEY (`id`)
 );
+
 
 CREATE TABLE saved_games (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -86,6 +88,44 @@ BEGIN
     CALL CalculateHighScores(NEW.id, NEW.user_id);
 END;
 
+CREATE OR REPLACE PROCEDURE UpdateUserDetails(
+    in_id INT,
+    new_username VARCHAR(30),
+    new_password VARCHAR(70),
+    new_email VARCHAR(30)
+)
+BEGIN
+    UPDATE users
+    SET username = new_username,
+        password = new_password,
+        email = new_email
+    WHERE id = in_id;
+END;
+
+CREATE OR REPLACE FUNCTION GetHighScore(in_user_id INT)
+RETURNS DECIMAL(10,2)
+BEGIN
+    DECLARE highscore DECIMAL(10,2);
+    SELECT MAX(score) INTO highscore
+    FROM highscores
+    WHERE user_id = in_user_id;
+    RETURN highscore;
+END;
+
+CREATE OR REPLACE FUNCTION GetGamesPlayed(in_user_id INT)
+RETURNS INT
+BEGIN
+    DECLARE games_played INT;
+    SELECT COUNT(*) INTO games_played
+    FROM saved_games
+    WHERE user_id = in_user_id;
+    RETURN games_played;
+END;
+
+CREATE OR REPLACE PROCEDURE DeleteGame(in_game_id INT)
+BEGIN
+    DELETE FROM saved_games WHERE id = in_game_id;
+END;
 
 INSERT INTO users (username, password, email)
 VALUES ('JohnDoe', 'password123', 'jdoe@gmail.com'),
@@ -95,10 +135,11 @@ VALUES ('JohnDoe', 'password123', 'jdoe@gmail.com'),
 INSERT INTO saved_games (turnNumber, currentPlayerIndex, players, towns, user_id, save_date)
 VALUES (10, 2, 3, '{"town1": {"population": {"population": 100}, "gold": {"gold": 200}}}', 1, NOW());
 
-
 SELECT * FROM highscores;
 SELECT * FROM users u ;
 SELECT * FROM saved_games sg ;
+
+DELETE FROM users WHERE ID = 7;
 
 SELECT users.username, highscores.save_date, highscores.score 
 FROM highscores

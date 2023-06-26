@@ -133,8 +133,28 @@ function showDialog(savedGames) {
         closeMenu();
     });
 
+    var deleteButton = document.createElement('button');
+    deleteButton.className = 'button';
+    deleteButton.textContent = 'Delete Selected Game';
+    deleteButton.addEventListener('click', () => {
+        var selectedGameId = document.getElementById('saved-games-select').value;
+        Swal.fire({
+            title: 'Are you sure?',
+            text: 'You will not be able to recover this saved game!',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'No, keep it'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                deleteSavedGame(selectedGameId).then(() => fetchSavedGames());
+            }
+        });
+    });
+
     loadDialog.appendChild(select);
     loadDialog.appendChild(loadButton);
+    loadDialog.appendChild(deleteButton);
     overlay.appendChild(loadDialog);
 
     document.body.appendChild(overlay);
@@ -185,5 +205,32 @@ async function loadGame(selectedGameId) {
         console.error('Error loading game from server:', error);
     }
 }
+
+async function deleteSavedGame(gameId) {
+    // Making a request to delete_saved_game.php to delete the specified game data from the database
+    try {
+        const response = await fetch('../game/delete_saved_game.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ game_id: gameId }) // Sending the game id in the request body
+        });
+
+        if (!response.ok) {
+            throw new Error(`Failed to delete game. Status: ${response.status}`);
+        }
+
+        const responseBody = await response.text();
+        console.log('Game deleted successfully:', responseBody);
+
+        // Here, you can add code to remove the deleted game from the savedGames array and the select list
+
+    } catch (error) {
+        console.error('Error deleting game from server:', error);
+    }
+}
+
+
 
 
