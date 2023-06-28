@@ -13092,3 +13092,1462 @@ Response:
 [26-Jun-2023 23:19:53 Europe/Berlin] Session data: {"currentTurnNumber":1,"currentPlayerIndex":0,"username":"vrag","user_id":"1","towns":{"A":{"playerIdentifier":null,"rations":{"rations":"350"},"gold":{"gold":"1000.000000"},"team":{"team":"A"},"activePopulation":{"activePopulation":"0"},"population":{"population":"0"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}},"B":{"playerIdentifier":null,"team":{"team":"B"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"population":{"population":"0"},"rations":{"rations":"350"},"stone":{"stone":"200"},"wood":{"wood":"200"},"housing":{"housing":"10"}}}}
 [26-Jun-2023 23:19:53 Europe/Berlin] Game saved successfully for User ID: 1
 [26-Jun-2023 23:19:53 Europe/Berlin] {"currentTurnNumber":1,"currentPlayerIndex":0,"username":"vrag","user_id":"1","towns":{"A":{"playerIdentifier":null,"rations":{"rations":"350"},"gold":{"gold":"1000.000000"},"team":{"team":"A"},"activePopulation":{"activePopulation":"0"},"population":{"population":"0"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}},"B":{"playerIdentifier":null,"team":{"team":"B"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"population":{"population":"0"},"rations":{"rations":"350"},"stone":{"stone":"200"},"wood":{"wood":"200"},"housing":{"housing":"10"}}}}
+[28-Jun-2023 12:02:12 Europe/Berlin] No data found in highscores table.
+[28-Jun-2023 12:02:26 Europe/Berlin] PHP Warning:  include(../includes/player.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[28-Jun-2023 12:02:26 Europe/Berlin] PHP Warning:  include(): Failed opening '../includes/player.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:27 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:02:28 Europe/Berlin] Received town data: {"playerIdentifier":"B","population":"{\"population\":\"0\"}","team":"{\"team\":\"B\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:02:28 Europe/Berlin] Town data saved in session for player: B
+[28-Jun-2023 12:02:28 Europe/Berlin] Received town data: {"playerIdentifier":"A","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","population":"{\"population\":\"0\"}","team":"{\"team\":\"A\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:02:28 Europe/Berlin] Town data saved in session for player: A
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:02:42 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:02:43 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:02:43 Europe/Berlin] Town data saved in session for player: B
+[28-Jun-2023 12:02:43 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:02:43 Europe/Berlin] Town data saved in session for player: A
+[28-Jun-2023 12:03:29 Europe/Berlin] make_move response data:{"currentPlayer":"B","currentTurn":1,"message":"Move made"}
+[28-Jun-2023 12:03:29 Europe/Berlin] Session currentTurnNumber set to: 1
+[28-Jun-2023 12:03:29 Europe/Berlin] Session currentPlayerIdentifier set to: B
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+Response:
+{"population":"4"}
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+Response:
+{"rations":"310"}
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:29 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:03:29 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"4\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"310\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:03:29 Europe/Berlin] Town data saved in session for player: A
+[28-Jun-2023 12:03:45 Europe/Berlin] make_move response data:{"currentPlayer":"A","currentTurn":2,"message":"Move made"}
+[28-Jun-2023 12:03:45 Europe/Berlin] Session currentTurnNumber set to: 2
+[28-Jun-2023 12:03:45 Europe/Berlin] Session currentPlayerIdentifier set to: A
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+Response:
+{"population":"4"}
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+Response:
+{"rations":"310"}
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:03:45 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:03:45 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"4\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"310\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:03:45 Europe/Berlin] Town data saved in session for player: B
+[28-Jun-2023 12:03:47 Europe/Berlin] Save game initiated. Turn number: 2, Current Player Index: 0, User ID: 1
+[28-Jun-2023 12:03:47 Europe/Berlin] Session data: {"currentTurnNumber":2,"currentPlayerIndex":0,"username":"ilisjak","user_id":"1","towns":{"B":{"playerIdentifier":null,"team":{"team":"B"},"population":{"population":"4"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}},"A":{"playerIdentifier":null,"team":{"team":"A"},"population":{"population":"4"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}}},"currentPlayerIdentifier":"A"}
+[28-Jun-2023 12:03:47 Europe/Berlin] Game saved successfully for User ID: 1
+[28-Jun-2023 12:03:47 Europe/Berlin] {"currentTurnNumber":2,"currentPlayerIndex":0,"username":"ilisjak","user_id":"1","towns":{"B":{"playerIdentifier":null,"team":{"team":"B"},"population":{"population":"4"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}},"A":{"playerIdentifier":null,"team":{"team":"A"},"population":{"population":"4"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}}},"currentPlayerIdentifier":"A"}
+[28-Jun-2023 12:04:03 Europe/Berlin] make_move response data:{"currentPlayer":"A","currentTurn":2,"message":"Move made"}
+[28-Jun-2023 12:04:03 Europe/Berlin] Session currentTurnNumber set to: 2
+[28-Jun-2023 12:04:03 Europe/Berlin] Session currentPlayerIdentifier set to: A
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+Response:
+{"population":"4"}
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+Response:
+{"gold":"800.000000"}
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+Response:
+{"activePopulation":"4"}
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+Response:
+{"rations":"310"}
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:04:03 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:04:03 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"4\"}","gold":"{\"gold\":\"800.000000\"}","activePopulation":"{\"activePopulation\":\"4\"}","rations":"{\"rations\":\"310\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:04:03 Europe/Berlin] Town data saved in session for player: A
+[28-Jun-2023 12:04:16 Europe/Berlin] Save game initiated. Turn number: 2, Current Player Index: 0, User ID: 1
+[28-Jun-2023 12:04:16 Europe/Berlin] Session data: {"currentTurnNumber":2,"currentPlayerIndex":0,"username":"ilisjak","user_id":"1","towns":{"B":{"playerIdentifier":null,"team":{"team":"B"},"population":{"population":"4"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}},"A":{"playerIdentifier":null,"team":{"team":"A"},"population":{"population":"4"},"gold":{"gold":"800.000000"},"activePopulation":{"activePopulation":"4"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}}},"currentPlayerIdentifier":"A"}
+[28-Jun-2023 12:04:16 Europe/Berlin] Game saved successfully for User ID: 1
+[28-Jun-2023 12:04:16 Europe/Berlin] {"currentTurnNumber":2,"currentPlayerIndex":0,"username":"ilisjak","user_id":"1","towns":{"B":{"playerIdentifier":null,"team":{"team":"B"},"population":{"population":"4"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}},"A":{"playerIdentifier":null,"team":{"team":"A"},"population":{"population":"4"},"gold":{"gold":"800.000000"},"activePopulation":{"activePopulation":"4"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}}},"currentPlayerIdentifier":"A"}
+[28-Jun-2023 12:04:23 Europe/Berlin] Sending data to API:
+{"serializedTowns":"[{\"team\":\"B\",\"activePopulation\":0,\"population\":4,\"gold\":1000,\"rations\":310,\"wood\":200,\"stone\":200,\"housing\":10},{\"team\":\"A\",\"activePopulation\":0,\"population\":4,\"gold\":1000,\"rations\":310,\"wood\":200,\"stone\":200,\"housing\":10}]"}
+[28-Jun-2023 12:04:25 Europe/Berlin] Game loaded successfully for User ID: 1
+[28-Jun-2023 12:04:41 Europe/Berlin] Sending data to API:
+{"serializedTowns":"[{\"team\":\"B\",\"activePopulation\":0,\"population\":4,\"gold\":1000,\"rations\":310,\"wood\":200,\"stone\":200,\"housing\":10},{\"team\":\"A\",\"activePopulation\":4,\"population\":4,\"gold\":800,\"rations\":310,\"wood\":200,\"stone\":200,\"housing\":10}]"}
+[28-Jun-2023 12:04:41 Europe/Berlin] Game loaded successfully for User ID: 1
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"gold":"800.000000"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"rations":"310"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"rations":"310"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:04:42 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:04:43 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"310\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:04:43 Europe/Berlin] Town data saved in session for player: B
+[28-Jun-2023 12:04:43 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"800.000000\"}","rations":"{\"rations\":\"310\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:04:43 Europe/Berlin] Town data saved in session for player: A
+[28-Jun-2023 12:05:06 Europe/Berlin] PHP Warning:  include(../includes/player.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[28-Jun-2023 12:05:06 Europe/Berlin] PHP Warning:  include(): Failed opening '../includes/player.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:05:07 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:05:08 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","activePopulation":"{\"activePopulation\":\"0\"}","population":"{\"population\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","housing":"{\"housing\":\"10\"}","stone":"{\"stone\":\"200\"}"}
+[28-Jun-2023 12:05:08 Europe/Berlin] Town data saved in session for player: B
+[28-Jun-2023 12:05:08 Europe/Berlin] Received town data: {"playerIdentifier":"A","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}"}
+[28-Jun-2023 12:05:08 Europe/Berlin] Town data saved in session for player: A
+[28-Jun-2023 12:05:25 Europe/Berlin] make_move response data:{"currentPlayer":"B","currentTurn":1,"message":"Move made"}
+[28-Jun-2023 12:05:25 Europe/Berlin] Session currentTurnNumber set to: 1
+[28-Jun-2023 12:05:25 Europe/Berlin] Session currentPlayerIdentifier set to: B
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+Response:
+{"population":"1"}
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+Response:
+{"rations":"340"}
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:25 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:05:25 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"1\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"340\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:05:25 Europe/Berlin] Town data saved in session for player: A
+[28-Jun-2023 12:05:27 Europe/Berlin] Save game initiated. Turn number: 1, Current Player Index: 0, User ID: 1
+[28-Jun-2023 12:05:27 Europe/Berlin] Session data: {"currentTurnNumber":1,"currentPlayerIndex":0,"username":"ilisjak","user_id":"1","numPlayers":"2","towns":{"B":{"playerIdentifier":null,"team":{"team":"B"},"activePopulation":{"activePopulation":"0"},"population":{"population":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"350"},"wood":{"wood":"200"},"housing":{"housing":"10"},"stone":{"stone":"200"}},"A":{"playerIdentifier":null,"team":{"team":"A"},"population":{"population":"1"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"340"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}}},"currentPlayerIdentifier":"B"}
+[28-Jun-2023 12:05:27 Europe/Berlin] Game saved successfully for User ID: 1
+[28-Jun-2023 12:05:27 Europe/Berlin] {"currentTurnNumber":1,"currentPlayerIndex":0,"username":"ilisjak","user_id":"1","numPlayers":"2","towns":{"B":{"playerIdentifier":null,"team":{"team":"B"},"activePopulation":{"activePopulation":"0"},"population":{"population":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"350"},"wood":{"wood":"200"},"housing":{"housing":"10"},"stone":{"stone":"200"}},"A":{"playerIdentifier":null,"team":{"team":"A"},"population":{"population":"1"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"340"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}}},"currentPlayerIdentifier":"B"}
+[28-Jun-2023 12:05:34 Europe/Berlin] make_move response data:{"currentPlayer":"A","currentTurn":2,"message":"Move made"}
+[28-Jun-2023 12:05:34 Europe/Berlin] Session currentTurnNumber set to: 2
+[28-Jun-2023 12:05:34 Europe/Berlin] Session currentPlayerIdentifier set to: A
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+Response:
+{"population":"4"}
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+Response:
+{"rations":"310"}
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:34 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:05:34 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","activePopulation":"{\"activePopulation\":\"0\"}","population":"{\"population\":\"4\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"310\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:05:34 Europe/Berlin] Town data saved in session for player: B
+[28-Jun-2023 12:05:39 Europe/Berlin] make_move response data:{"currentPlayer":"B","currentTurn":2,"message":"Move made"}
+[28-Jun-2023 12:05:39 Europe/Berlin] Session currentTurnNumber set to: 2
+[28-Jun-2023 12:05:39 Europe/Berlin] Session currentPlayerIdentifier set to: B
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+Response:
+{"population":"5"}
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+Response:
+{"rations":"300"}
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:39 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:05:39 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"5\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"300\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:05:39 Europe/Berlin] Town data saved in session for player: A
+[28-Jun-2023 12:05:51 Europe/Berlin] Save game initiated. Turn number: 2, Current Player Index: 0, User ID: 1
+[28-Jun-2023 12:05:51 Europe/Berlin] Session data: {"currentTurnNumber":2,"currentPlayerIndex":0,"username":"ilisjak","user_id":"1","numPlayers":"2","towns":{"B":{"playerIdentifier":null,"team":{"team":"B"},"activePopulation":{"activePopulation":"0"},"population":{"population":"4"},"gold":{"gold":"1000.000000"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}},"A":{"playerIdentifier":null,"team":{"team":"A"},"population":{"population":"5"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"300"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}}},"currentPlayerIdentifier":"B"}
+[28-Jun-2023 12:05:51 Europe/Berlin] Game saved successfully for User ID: 1
+[28-Jun-2023 12:05:51 Europe/Berlin] {"currentTurnNumber":2,"currentPlayerIndex":0,"username":"ilisjak","user_id":"1","numPlayers":"2","towns":{"B":{"playerIdentifier":null,"team":{"team":"B"},"activePopulation":{"activePopulation":"0"},"population":{"population":"4"},"gold":{"gold":"1000.000000"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}},"A":{"playerIdentifier":null,"team":{"team":"A"},"population":{"population":"5"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"300"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}}},"currentPlayerIdentifier":"B"}
+[28-Jun-2023 12:05:59 Europe/Berlin] Sending data to API:
+{"serializedTowns":"[{\"team\":\"B\",\"activePopulation\":0,\"population\":0,\"gold\":1000,\"rations\":350,\"wood\":200,\"stone\":200,\"housing\":10},{\"team\":\"A\",\"activePopulation\":0,\"population\":1,\"gold\":1000,\"rations\":340,\"wood\":200,\"stone\":200,\"housing\":10}]"}
+[28-Jun-2023 12:05:59 Europe/Berlin] Game loaded successfully for User ID: 1
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"rations":"340"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:05:59 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:06:01 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:06:01 Europe/Berlin] Town data saved in session for player: B
+[28-Jun-2023 12:06:01 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"340\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:06:01 Europe/Berlin] Town data saved in session for player: A
+[28-Jun-2023 12:08:01 Europe/Berlin] PHP Warning:  include(../includes/player.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[28-Jun-2023 12:08:01 Europe/Berlin] PHP Warning:  include(): Failed opening '../includes/player.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dev\strongholdcpp-master\api\start_game.php on line 5
+[28-Jun-2023 12:08:01 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:01 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[28-Jun-2023 12:08:01 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:01 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:01 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:01 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:08:01 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[28-Jun-2023 12:08:01 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:01 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:01 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:08:01 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:08:01 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:02 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:08:03 Europe/Berlin] Received town data: {"playerIdentifier":"B","population":"{\"population\":\"0\"}","team":"{\"team\":\"B\"}","activePopulation":"{\"activePopulation\":\"0\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","gold":"{\"gold\":\"1000.000000\"}"}
+[28-Jun-2023 12:08:03 Europe/Berlin] Town data saved in session for player: B
+[28-Jun-2023 12:08:03 Europe/Berlin] Received town data: {"playerIdentifier":"A","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}","team":"{\"team\":\"A\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}"}
+[28-Jun-2023 12:08:03 Europe/Berlin] Town data saved in session for player: A
+[28-Jun-2023 12:08:16 Europe/Berlin] make_move response data:{"currentPlayer":"B","currentTurn":1,"message":"Move made"}
+[28-Jun-2023 12:08:16 Europe/Berlin] Session currentTurnNumber set to: 1
+[28-Jun-2023 12:08:16 Europe/Berlin] Session currentPlayerIdentifier set to: B
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+Response:
+{"population":"4"}
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+Response:
+{"rations":"310"}
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:16 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:08:16 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"4\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"310\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:08:16 Europe/Berlin] Town data saved in session for player: A
+[28-Jun-2023 12:08:19 Europe/Berlin] Save game initiated. Turn number: 1, Current Player Index: 0, User ID: 1
+[28-Jun-2023 12:08:19 Europe/Berlin] Session data: {"currentTurnNumber":1,"currentPlayerIndex":0,"username":"ilisjak","user_id":"1","numPlayers":"2","towns":{"B":{"playerIdentifier":null,"population":{"population":"0"},"team":{"team":"B"},"activePopulation":{"activePopulation":"0"},"rations":{"rations":"350"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"},"gold":{"gold":"1000.000000"}},"A":{"playerIdentifier":null,"team":{"team":"A"},"population":{"population":"4"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}}},"currentPlayerIdentifier":"B"}
+[28-Jun-2023 12:08:19 Europe/Berlin] Game saved successfully for User ID: 1
+[28-Jun-2023 12:08:19 Europe/Berlin] {"currentTurnNumber":1,"currentPlayerIndex":0,"username":"ilisjak","user_id":"1","numPlayers":"2","towns":{"B":{"playerIdentifier":null,"population":{"population":"0"},"team":{"team":"B"},"activePopulation":{"activePopulation":"0"},"rations":{"rations":"350"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"},"gold":{"gold":"1000.000000"}},"A":{"playerIdentifier":null,"team":{"team":"A"},"population":{"population":"4"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}}},"currentPlayerIdentifier":"B"}
+[28-Jun-2023 12:08:27 Europe/Berlin] make_move response data:{"currentPlayer":"A","currentTurn":2,"message":"Move made"}
+[28-Jun-2023 12:08:27 Europe/Berlin] Session currentTurnNumber set to: 2
+[28-Jun-2023 12:08:27 Europe/Berlin] Session currentPlayerIdentifier set to: A
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+Response:
+{"population":"6"}
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+Response:
+{"rations":"290"}
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:27 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:08:27 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"6\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"290\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:08:27 Europe/Berlin] Town data saved in session for player: B
+[28-Jun-2023 12:08:31 Europe/Berlin] Save game initiated. Turn number: 2, Current Player Index: 0, User ID: 1
+[28-Jun-2023 12:08:31 Europe/Berlin] Session data: {"currentTurnNumber":2,"currentPlayerIndex":0,"username":"ilisjak","user_id":"1","numPlayers":"2","towns":{"B":{"playerIdentifier":null,"team":{"team":"B"},"population":{"population":"6"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"290"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}},"A":{"playerIdentifier":null,"team":{"team":"A"},"population":{"population":"4"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}}},"currentPlayerIdentifier":"A"}
+[28-Jun-2023 12:08:31 Europe/Berlin] Game saved successfully for User ID: 1
+[28-Jun-2023 12:08:31 Europe/Berlin] {"currentTurnNumber":2,"currentPlayerIndex":0,"username":"ilisjak","user_id":"1","numPlayers":"2","towns":{"B":{"playerIdentifier":null,"team":{"team":"B"},"population":{"population":"6"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"290"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}},"A":{"playerIdentifier":null,"team":{"team":"A"},"population":{"population":"4"},"activePopulation":{"activePopulation":"0"},"gold":{"gold":"1000.000000"},"rations":{"rations":"310"},"wood":{"wood":"200"},"stone":{"stone":"200"},"housing":{"housing":"10"}}},"currentPlayerIdentifier":"A"}
+[28-Jun-2023 12:08:38 Europe/Berlin] Sending data to API:
+{"serializedTowns":"[{\"team\":\"B\",\"activePopulation\":0,\"population\":0,\"gold\":1000,\"rations\":350,\"wood\":200,\"stone\":200,\"housing\":10},{\"team\":\"A\",\"activePopulation\":0,\"population\":4,\"gold\":1000,\"rations\":310,\"wood\":200,\"stone\":200,\"housing\":10}]"}
+[28-Jun-2023 12:08:38 Europe/Berlin] Game loaded successfully for User ID: 1
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"population":"4"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"rations":"310"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:08:38 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:08:40 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"4\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"310\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:08:40 Europe/Berlin] Town data saved in session for player: A
+[28-Jun-2023 12:08:40 Europe/Berlin] Received town data: {"playerIdentifier":"B","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","housing":"{\"housing\":\"10\"}","stone":"{\"stone\":\"200\"}","team":"{\"team\":\"B\"}","population":"{\"population\":\"0\"}"}
+[28-Jun-2023 12:08:40 Europe/Berlin] Town data saved in session for player: B
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"team":"A"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"population":"4"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"rations":"310"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"team":"B"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"activePopulation":"0"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"population":"0"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"gold":"1000.000000"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"rations":"350"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"wood":"200"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"stone":"200"}
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+HTTP Status: 200
+
+[28-Jun-2023 12:40:36 Europe/Berlin] 
+Response:
+{"housing":"10"}
+
+[28-Jun-2023 12:40:38 Europe/Berlin] Received town data: {"playerIdentifier":"A","team":"{\"team\":\"A\"}","population":"{\"population\":\"4\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"310\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:40:38 Europe/Berlin] Town data saved in session for player: A
+[28-Jun-2023 12:40:38 Europe/Berlin] Received town data: {"playerIdentifier":"B","team":"{\"team\":\"B\"}","population":"{\"population\":\"0\"}","activePopulation":"{\"activePopulation\":\"0\"}","gold":"{\"gold\":\"1000.000000\"}","rations":"{\"rations\":\"350\"}","wood":"{\"wood\":\"200\"}","stone":"{\"stone\":\"200\"}","housing":"{\"housing\":\"10\"}"}
+[28-Jun-2023 12:40:38 Europe/Berlin] Town data saved in session for player: B

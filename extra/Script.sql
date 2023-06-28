@@ -1,17 +1,18 @@
-DROP TABLE IF EXISTS users;
-DROP TABLE IF EXISTS saved_games;
 DROP TABLE IF EXISTS highscores;
+DROP TABLE IF EXISTS saved_games;
+DROP TABLE IF EXISTS users;
 DROP TABLE IF EXISTS debug_logs;
 
 CREATE TABLE users (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `username` VARCHAR(30) NOT NULL,
-  `password` VARCHAR(70) NOT NULL,
-  `email` VARCHAR(30) NOT NULL,
-  `profile_picture` VARCHAR(255),
-  PRIMARY KEY (`id`)
+  id INT NOT NULL AUTO_INCREMENT,
+  username VARCHAR(30) NOT NULL,
+  password VARCHAR(70) NOT NULL,
+  email VARCHAR(30) NOT NULL,
+  profile_picture VARCHAR(255),
+  PRIMARY KEY (id),
+  UNIQUE (username),
+  UNIQUE (email)
 );
-
 
 CREATE TABLE saved_games (
   id INT AUTO_INCREMENT PRIMARY KEY,

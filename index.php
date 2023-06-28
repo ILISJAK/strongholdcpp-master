@@ -44,7 +44,7 @@ echo "<script>console.log('Session Data: ', " . json_encode($_SESSION) . ");</sc
     </video>
 
     <div class="w3-display-middle w3-jumbo">
-        <p>Logo</p>
+        <img src="public_html/img/Untitled-1.png" alt="banner">
     </div>
     <div class="w3-display-topleft w3-container w3-xlarge">
         <p><button onclick="window.location.href='src/views/leaderboard.php'" class="w3-button w3-black">View
@@ -81,8 +81,8 @@ echo "<script>console.log('Session Data: ', " . json_encode($_SESSION) . ");</sc
                     class="w3-button w3-black">Register</button></p>
         <?php endif; ?>
     </div>
-    <div class="w3-display-middle">
-        <button class="w3-button w3-black" id="play-button" onclick="playGame()">Play</button>
+    <div class="w3-display-bottommiddle w3-container">
+        <button class="w3-button w3-black" id="play-button" onclick="playGame()" style="width: 200px;">Play</button>
     </div>
     <div class="w3-display-bottomleft w3-container">
         <p class="w3-xlarge">26-06 | 2023</p>
